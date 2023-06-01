@@ -9,7 +9,7 @@ MY MESSAGE rghh.)
 - It is my personal opinion, but I find satisfaction in these kinds of optimizations.
 But is it at all an optimization, considering all the conversions from i8 to isize?
 
-- Actually... change of mind again. Refer to commit #1 (sorry)
+- Ok let's just say I don't know.
 
 - I knew about the pattern matching on references, but I just found the asterisk
 more pleasing... But I now see that with your method, dereferencing only happens
