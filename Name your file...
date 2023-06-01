@@ -1,18 +1,21 @@
 Hey Dan,
-thanks so much for your insightful advice on Exercism. Nothing is unsolicited
-because my curiosity is insatiable.
+thanks you for your insightful advice on Exercism. Nothing is unsolicited
+in my case.
 
 (I'm writing to you in this format because I currently only have access to
 a phone, and the resizing stuff doesn't work on exercism so I CAN'T SEND
 MY MESSAGE rghh.)
 
 - It is my personal opinion, but I find satisfaction in these kinds of optimizations.
-But is it at all an optimization, considering all the conversions from i8 to isize?
+But is it at all an optimization when constantly converting from i8 to isize on each usage?
 
-- Ok let's just say I don't know.
+- I have implemented your second suggestion, via as_bytes().
+- I am satisfied to say this happened: `row.as_bytes().iter()...`
+can be replaced by `row.bytes()...` to the same effect, resulting in
+an iterator producing owned bytes, eliminating the need for your third
+suggestion at all (though otherwise, I would have implemented it).
 
-- I knew about the pattern matching on references, but I just found the asterisk
-more pleasing... But I now see that with your method, dereferencing only happens
-once instead of twice, so that too shall be implemented.
+- it turns out my recent iterations were filled with unsafe code were filled
+with logic and therefore soundness bugs, yikes... now should be fixed
 
 Thanks, again!
