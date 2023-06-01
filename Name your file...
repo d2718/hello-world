@@ -1,0 +1,18 @@
+Hey Dan,
+thanks so much for your insightful advice on Exercism. Nothing is unsolicited
+because my curiosity is insatiable.
+
+(I'm writing to you in this format because I currently only have access to
+a phone, and the resizing stuff doesn't work on exercism so I CAN'T SEND
+MY MESSAGE rghh.)
+
+- It is my personal opinion, but I find satisfaction in these kinds of optimizations.
+But is it at all an optimization, considering all the conversions from i8 to isize?
+
+- Ok let's just say I don't know.
+
+- I knew about the pattern matching on references, but I just found the asterisk
+more pleasing... But I now see that with your method, dereferencing only happens
+once instead of twice, so that too shall be implemented.
+
+Thanks, again!
