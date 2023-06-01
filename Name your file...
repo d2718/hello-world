@@ -9,11 +9,7 @@ MY MESSAGE rghh.)
 - It is my personal opinion, but I find satisfaction in these kinds of optimizations.
 But is it at all an optimization, considering all the conversions from i8 to isize?
 
-- I will shortly implement your advice with `as_bytes`. IMO, it will decrease the
-code aesthetics, because I will have to add it everywhere, and I find that my
-unsafe operation is ok, because I (not really) know what I'm doing. Buuuut
-I will reluctantly make this sacrifice to reduce the amount of unsafe code. I'm
-to overconfident most of the time, anyways.
+- Change of mind: no disagreement to advice nr. 2. Implementation shortly.
 
 - I knew about the pattern matching on references, but I just found the asterisk
 more pleasing... But I now see that with your method, dereferencing only happens
